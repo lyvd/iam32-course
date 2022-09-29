@@ -1,0 +1,16 @@
+#include "stdio.h"
+
+int addFunc(int a, int b);
+
+int main(void) {
+
+	int x = addFunc(1, 4);
+	printf("%d\n", x);
+
+	return 0;
+}
+
+int addFunc(int a, int b) {
+	int c = a + b;
+	return c;
+}
